@@ -1,17 +1,21 @@
 body {
     font-family: Arial;
-    max-width: 400px;
+    max-width: 500px;
     margin: 50px auto;
     text-align: center;
 }
 
-input {
+input, button {
     display: block;
     margin: 10px auto;
-    padding: 5px;
+    padding: 8px;
 }
 
 button {
-    padding: 10px;
     cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
